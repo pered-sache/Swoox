@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:id="@+id/vista_Actividad"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/fondo_form_seguimiento"
+        android:visibility="visible">
+
+        <ImageView
+            android:layout_width="@android:dimen/app_icon_size"
+            android:layout_height="@android:dimen/app_icon_size"
+            android:id="@+id/icono_actividad"
+            android:src="@drawable/avtividades"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="3dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent">
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:stretchColumns="1"
+                android:layout_height="wrap_content">
+
+
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:stretchColumns="1"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/actividad"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/Detalle_Listas"/>
+
+                    <TextView
+                        android:id="@+id/fecha"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/Detalle_Listas"
+                        android:layout_marginRight="@dimen/margen_estrecho"
+                        android:layout_marginLeft="@dimen/margen_estrecho" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imagen_seguimiento"
+                        android:src="@android:drawable/checkbox_on_background"
+                        android:layout_marginRight="@dimen/margen_estrecho" />
+
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/empresa"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="visible"
+                        style="@android:style/TextAppearance.DeviceDefault.Large"
+                        android:textSize="@dimen/Detalle_Listas"
+                        android:layout_span="2"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/nombre"
+                        android:textSize="@dimen/Detalle_Listas"
+                        android:layout_span="2"
+                        android:background="@color/fondo_form_seguimiento"
+                        android:autoText="false" />
+                </TableRow>
+
+
+            </TableLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/Detalle_Listas"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/movil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/Detalle_Listas"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/Detalle_Listas"
+        android:visibility="gone" />
+
+</LinearLayout>

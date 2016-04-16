@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sucesos">
+        <item>NUEVO</item>
+        <item>LLAMADA</item>
+        <item>CORREO</item>
+        <item>CITA</item>
+        <item>VISITA</item>
+        <item>MUESTRA</item>
+        <item>COTIZACION</item>
+        <item>PEDIDO</item>
+        <item>FACTURACION</item>
+        <item>ENTREGA</item>
+        <item>REVISION</item>
+        <item>COBRANZA</item>
+        <item>POST-VENTA</item>
+        <item>NOTA</item>
+        <item>NO CONFORME</item>
+        <item>QUEJA</item>
+        <item>SOLUCION</item>
+        <item>DESCARTAR</item>
+    </string-array>
+
+</resources>

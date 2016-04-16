@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pais">
+        <item>España</item>
+        <item>Francia</item>
+        <item>Alemania</item>
+    </string-array>
+    <string-array name="codigopais">
+        <item>ESP</item>
+        <item>FRA</item>
+        <item>ALE</item>
+    </string-array>
+
+    <string-array name="array_paises">
+        <item>Petoria</item>
+        <item>Akistan</item>
+        <item>Akinostan</item>
+        <item>Yunquelandia</item>
+        <item>Antillas Antarticas</item>
+        <item>Cobra Island</item>
+        <item>Shadaloo</item>
+        <item>East African Protectorate</item>
+        <item>Eutanasia</item>
+        <item>Genosha</item>
+        <item>Tokio3</item>
+        <item>Austeria</item>
+    </string-array>
+</resources>

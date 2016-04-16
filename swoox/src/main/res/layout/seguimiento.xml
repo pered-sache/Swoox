@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/form"
+    android:focusableInTouchMode="false"
+    android:background="@color/fondo_form_seguimiento">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/fondo_titulo_seguimiento"
+        android:baselineAligned="true">
+
+        <ImageView
+            android:layout_width="@android:dimen/notification_large_icon_height"
+            android:layout_height="@android:dimen/notification_large_icon_width"
+            android:id="@+id/icono_actividad"
+            android:src="@drawable/llamada" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/seguimiento"
+                android:textColor="@color/texto_color_seguimiento"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/empresa"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/texto_color_seguimiento"
+                style="@android:style/TextAppearance.Medium" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="FECHA :"
+                    android:id="@+id/lblfecha"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:textColor="@color/texto_color_seguimiento" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="date"
+                    android:id="@+id/fecha"
+                    android:editable="false"
+                    android:enabled="false"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:textColor="@color/texto_color_seguimiento" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="time"
+                    android:id="@+id/hora"
+                    android:editable="false"
+                    android:enabled="false"
+                    android:textColor="@color/texto_color_seguimiento"
+                    android:layout_marginLeft="@dimen/margen_estrecho" />
+
+            </TableRow>
+
+            <TableRow>
+
+            </TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="DESCRIPCION :"
+                android:id="@+id/textView4"
+                android:textColor="@color/texto_color_seguimiento"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="118dp"
+                android:id="@+id/descripcion"
+                android:editable="false"
+                android:enabled="false"
+                android:focusable="true"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:textColor="@color/texto_color_seguimiento"
+                android:textSize="@dimen/texto_seguimineto"
+                android:background="@drawable/back" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Comentarios de Cierre :"
+                android:id="@+id/textView"
+                android:textColor="@color/texto_color_seguimiento"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="118dp"
+                android:id="@+id/comentarios"
+                android:editable="true"
+                android:enabled="true"
+                android:focusable="true"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:textColor="@color/texto_color_seguimiento"
+                android:textSize="@dimen/texto_seguimineto"
+                android:background="@drawable/back"
+                android:gravity="top"
+                android:padding="@dimen/margen_estrecho" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Fecha :"
+                    android:id="@+id/textView2"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:textColor="@color/texto_color_seguimiento" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="date"
+                    android:ems="6"
+                    android:id="@+id/hecho_fecha"
+                    android:clickable="true"
+                    android:textColor="@color/texto_color_seguimiento"
+                    android:enabled="false" />
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/btn_fecha"
+                    android:src="@android:drawable/ic_menu_my_calendar"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Hora :"
+                    android:id="@+id/hora"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:singleLine="false"
+                    android:textColor="@color/texto_color_seguimiento" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="time"
+                    android:id="@+id/hecho_hora"
+                    android:ems="6"
+                    android:layout_marginLeft="@dimen/margen_estrecho"
+                    android:textColor="@color/texto_color_seguimiento" />
+
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/btn_hora"
+                    android:src="@android:drawable/presence_away"
+                    android:onClick="showTimePickerDialog"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin" />
+            </LinearLayout>
+
+        </TableLayout>
+    </ScrollView>
+
+</LinearLayout>

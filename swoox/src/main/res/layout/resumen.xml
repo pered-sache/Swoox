@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/droid_swoox" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Resumen de la cuenta"
+        android:id="@+id/textView"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_gravity="center_horizontal"
+        android:singleLine="true" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/cliente"
+        android:layout_marginTop="@dimen/margen_estrecho" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Total de Clientes"
+        android:id="@+id/resumen_total"
+        android:layout_marginTop="@dimen/margen_estrecho"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Clientes sin seguimiento"
+        android:id="@+id/resumen_inactivos"
+        android:layout_marginTop="@dimen/margen_estrecho"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Clientes sin seguimiento"
+        android:id="@+id/resumen_ultima_alta"
+        android:layout_marginTop="@dimen/margen_estrecho"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/imageView3"
+        android:src="@drawable/avtividades"
+        android:layout_marginTop="@dimen/Titlos_Listas" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Seguimientos "
+        android:id="@+id/resumen_seguimientos"
+        android:layout_marginTop="@dimen/margen_estrecho"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Seguimientosterminado"
+        android:id="@+id/resumen_seg_terminados"
+        android:layout_marginTop="@dimen/margen_estrecho"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Seguimientos pendientes"
+        android:id="@+id/resumen_seg_pentienes"
+        android:layout_marginTop="@dimen/margen_estrecho"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Fecha ult. seguimiento"
+        android:id="@+id/resumen_ult_seguimiento"
+        android:layout_marginTop="@dimen/margen_estrecho"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salir"
+        android:id="@+id/button_resumen_salir"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginTop="@dimen/directorio_Cliente" />
+
+</LinearLayout>

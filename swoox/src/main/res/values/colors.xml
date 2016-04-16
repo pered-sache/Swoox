@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Backgroun_titulo">#ffffff</color>
+    <color name="fondo_titulo_seguimiento">#ffbe04</color>
+    <color name="fondo_form_seguimiento">#ffffff</color>
+
+    <color name="texto_color_seguimiento">#000000</color>
+    <color name="texto_color_directorio">#000000</color>
+    <color name="texto_color_tenue_directorio">#ff494b48</color>
+    <color name="Textcolor_titulo">#ffffb727</color>
+    <color name="Textcolor_actividad">#ffffaa00</color>
+    <color name="transparent">#00000000</color>
+
+
+</resources>

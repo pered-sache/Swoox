@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/titulo_actividades"
+        android:layout_alignRight="@+id/list"
+        android:layout_alignEnd="@+id/list"
+        android:gravity="center_horizontal"
+        android:textColor="@color/Textcolor_actividad"
+        android:text="PARA HOY"
+        android:singleLine="true"
+        android:background="@color/fondo_form_seguimiento" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textFilterEnabled="false"
+        android:footerDividersEnabled="true"
+        android:drawSelectorOnTop="false"
+        android:layout_below="@+id/titulo_actividades"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentBottom="false" />
+
+</RelativeLayout>

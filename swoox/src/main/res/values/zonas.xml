@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="zonas">
+        <item>Cancun</item>
+        <item>Mérida</item>
+        <item>Playa</item>
+        <item>Riviera Maya</item>}
+        <item>Zona Hotelera</item>
+    </string-array>
+</resources>

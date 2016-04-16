@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_nuevo_seguimiento"
+        android:title="Nuevo Seguimiento" />
+
+    <item
+        android:id="@+id/menu_checkin"
+        android:title="Iniciar Visita con este cliente" />
+
+    <item
+        android:id="@+id/menu_checout"
+        android:title="Terminar Visita" />
+
+
+    <item
+        android:id="@+id/menu1"
+        android:title="Marcar Telefono" />
+    <item
+        android:id="@+id/menu2"
+        android:title="Marcar Celular" />
+
+    <item
+        android:id="@+id/menu3"
+        android:title="Mandar un E-Mail" />
+
+
+    <item
+        android:id="@+id/menu_checkpoint"
+        android:title="Definir Ubicacion (GPS)" />
+
+</menu>

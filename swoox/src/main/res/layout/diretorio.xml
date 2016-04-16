@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/titulo_directorio"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/titulo_directorio"
+        android:background="@color/Backgroun_titulo" />
+
+    <!-- Editext for Search -->
+    <EditText
+        android:id="@+id/inputSearch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Buscar ....."
+        android:inputType="textVisiblePassword"
+        android:background="@color/fondo_titulo_seguimiento"
+        android:textSize="@dimen/directorio_Cliente" />
+
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.83"
+        android:textFilterEnabled="false"
+        android:footerDividersEnabled="true"
+        android:drawSelectorOnTop="false" />
+
+</LinearLayout>

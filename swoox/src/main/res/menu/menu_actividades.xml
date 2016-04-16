@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_act1"
+        android:title="Actividades de Hoy" />
+    <item
+        android:id="@+id/menu_act2"
+        android:title="Actividades Vencidas" />
+    <item
+        android:id="@+id/menu_act3"
+        android:title="Proximas Actividades" />
+
+</menu>

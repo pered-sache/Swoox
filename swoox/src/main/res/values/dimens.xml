@@ -1,0 +1,10 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="Titlos_Listas">20dp</dimen>
+    <dimen name="Detalle_Listas">18dp</dimen>
+    <dimen name="directorio_Cliente">23dp</dimen>
+    <dimen name="Descripcion_seguimiento">18dp</dimen><dimen name="margen_estrecho">5dp</dimen><dimen name="texto_seguimineto">18dp</dimen>
+
+</resources>

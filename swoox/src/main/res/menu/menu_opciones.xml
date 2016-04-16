@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/validar"
+        android:title="Validar"
+        android:icon="@drawable/ic_action_done"
+        android:orderInCategory="100"
+        android:showAsAction="always" />
+
+    <item
+        android:id="@+id/opciones_salir"
+        android:title="Salir"
+        android:showAsAction="always"
+                />
+
+
+</menu>

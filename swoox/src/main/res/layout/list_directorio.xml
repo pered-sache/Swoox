@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@color/fondo_form_seguimiento">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/razon"
+        android:singleLine="false"
+       />/ style="@style/TextAppearance.AppCompat.Base.Widget.PopupMenu.Large" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nombre"
+        android:textColor="@color/texto_color_directorio" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/panel"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/telefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/Detalle_Listas"
+            android:textColor="@color/texto_color_tenue_directorio"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/movil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/Detalle_Listas"
+            android:textColor="@color/texto_color_directorio"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/extencion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/Detalle_Listas"
+            android:textColor="@color/texto_color_directorio"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/Detalle_Listas"
+            android:textColor="@color/texto_color_directorio"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/Detalle_Listas"
+            android:textColor="@color/texto_color_directorio"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

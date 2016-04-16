@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Registro"
+        android:key="perfil">
+
+        <EditTextPreference
+            android:key="idusuario"
+            android:title="ID Usuario"
+            android:summary="Numero de identificación"
+            android:defaultValue="0"
+            android:dialogTitle="Id Usuario" />
+
+        <EditTextPreference
+            android:key="usuario"
+            android:title="Usuario"
+            android:summary="Teclee el nombre del Usuario"
+            android:dialogTitle="Usuario" />
+
+        <EditTextPreference
+            android:key="Password"
+            android:title="Contraseña"
+            android:summary="Contraseña"
+            android:dialogTitle="Contraseña" />
+
+
+        <EditTextPreference
+            android:key="url"
+            android:title="Direccion URL de consultas"
+            android:summary="Direccion URL o IP del servidor"
+            android:defaultValue="swoox.com.mx/app/"
+            android:dialogTitle="URL" />
+
+        <EditTextPreference
+            android:key="nivel"
+            android:title="Nivel de acceso"
+            android:defaultValue="0"
+            android:summary="Nivel"
+            android:dialogTitle="Nivel de acceso"
+
+            />
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

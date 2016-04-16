@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="giros">
+        <item>"Hoteles"</item>
+        <item>"Restaurantes"</item>
+        <item>Carpinterias</item>
+        <item>Tiendas</item>}
+        <item>otros</item>
+    </string-array>
+</resources>

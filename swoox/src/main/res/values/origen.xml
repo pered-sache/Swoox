@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="origen">
+        <item>"Mostrador"</item>
+        <item>"Recomendado"</item>
+        <item>Social</item>}
+        <item>Prospección</item>
+        <item>Pagina Woodcare</item>
+        <item>Pagina Woox</item>
+        <item>FaceBook</item>
+    </string-array>
+</resources>

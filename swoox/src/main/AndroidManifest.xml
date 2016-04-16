@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.progint.swoox"
+    android:versionCode="7"
+    android:versionName="1.2" >
+
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_cuadro"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.progint.swoox.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".OpcionesActivity"
+            android:label="@string/app_name"/>
+        <activity android:name="about" android:label="Acercade"/>
+        <activity android:name="nuevo_cliente" android:label="Nuevo Cliente" />
+        <activity android:name="cat_actividades" android:label="Catalogo de Actividades"/>
+        <activity android:name="Actividades" android:label="ACTIVIDADES"/>
+        <activity android:name="ActividadesXAgente" android:label="ACTIVIDADES"/>
+        <activity android:name="Directorio" android:label="DIRECTORIO"/>
+        <activity android:name="Seguimiento" android:label="Seguimiento"/>
+        <activity android:name="seguimiento_nuevo" android:label="Seguimiento"/>
+        <activity android:name="Historial" android:label="Historial"/>
+        <activity android:name="AndroidTouchPinchZoomActivity" android:label="test"/>
+        <activity android:name="email" android:label="email"/>
+        <activity android:name="Resumen_Actividades" android:label="Resumen"/>
+        <activity android:name="resumen" android:label="Resumen"/>
+        <activity android:name="Alaredonda" android:label="Alaredonda"/>
+        <activity android:name=".ayuda" android:label="Ayuda"/>
+    </application>
+</manifest>

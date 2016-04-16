@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/about"
+        android:title="About"
+        android:orderInCategory="100"
+        android:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/Resumen"
+        android:title="Resumen"
+        android:orderInCategory="100"
+        android:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/resumen_total"
+        android:title="Seguimentos de Agentes"
+        android:orderInCategory="100"
+        android:showAsAction="collapseActionView" />
+</menu>

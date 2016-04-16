@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="@style/Transparent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/ayuda"
+        android:layout_gravity="right" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Ayuda"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:src="@drawable/punto" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:id="@+id/textView"
+                android:text="Si deslizas hacia la Izquierda, mostrará los seguimientos del cliente. "
+                android:layout_weight="0.00"
+                android:layout_marginLeft="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView3"
+                android:src="@drawable/punto" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="85dp"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:id="@+id/textView"
+                android:maxLines="20"
+                android:minLines="10"
+                android:text="Si deslizas hacia la derecha, marcara al número celular registrado."
+                android:layout_marginLeft="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView4"
+                android:src="@drawable/punto" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:textAppearance="@android:style/TextAppearance.Medium"
+                android:id="@+id/textView"
+                android:text="Mantener presionado el nombre del clientre, para que se despliegue menú de opciones."
+                android:autoText="true"
+                android:layout_marginLeft="5dp" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:id="@+id/btn_ayuda_ok"
+            android:layout_gravity="right" />
+    </LinearLayout>
+
+
+</LinearLayout>
